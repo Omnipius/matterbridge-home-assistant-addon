@@ -5,9 +5,9 @@ FROM $BUILD_FROM
 ARG MATTERBRIDGE_HOME_ASSISTANT_VERSION
 
 # webinterface
-EXPOSE 8283
+EXPOSE 8285
 # websocket for the webinterface
-EXPOSE 8284
+EXPOSE 8286
 
 RUN mkdir /app
 WORKDIR /app
